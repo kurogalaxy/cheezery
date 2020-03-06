@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registro"></activity>
+        <activity android:name=".ProductosComboActivity"></activity>
+        <activity android:name=".ProductosActivity" />
+        <activity android:name=".pantalla6" />
+        <activity android:name=".pantalla5" />
+        <activity android:name=".pantalla4" />
+        <activity android:name=".pantalla3" />
+        <activity android:name=".pantalla2" />
+        <activity android:name=".pantalla1" />
+        <activity android:name=".menuActivity" />
+        <activity android:name=".registro" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

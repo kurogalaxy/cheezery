@@ -47,10 +47,10 @@
         <Button
             android:id="@+id/btn_registro"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/botonredondo"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:text="@string/get_started"

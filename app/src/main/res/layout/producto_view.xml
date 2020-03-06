@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:background="@null"
-    android:layout_height="wrap_content">
+    android:layout_height="100dp">
 
     <ImageView
         android:id="@+id/producto_img"
         android:layout_width="0dp"
         android:layout_gravity="center_vertical"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:src="@drawable/caramelfrap"
         />
@@ -17,9 +17,8 @@
         android:orientation="vertical"
         android:layout_width="0dp"
         android:paddingLeft="10dp"
-        android:gravity="center_vertical"
-        android:layout_height="wrap_content"
-        android:layout_weight="3">
+        android:layout_height="match_parent"
+        android:layout_weight="2">
 
         <TextView
             android:id="@+id/producto_nombre"
@@ -48,9 +47,8 @@
         android:fontFamily="sans-serif-condensed"
         android:textStyle="bold"
         android:textColor="@color/precioProducto"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:layout_weight="1"
-        android:layout_marginLeft="20dp"
         android:layout_width="0dp"
         android:layout_height="match_parent"/>
 

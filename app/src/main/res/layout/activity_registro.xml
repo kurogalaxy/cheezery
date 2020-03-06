@@ -80,18 +80,18 @@
             android:textColor="@color/purpleishGrey"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign In"
-            android:background="@color/colorAccent"
-            android:paddingLeft="30dp"
-            android:layout_marginTop="40dp"
-            android:layout_gravity="center"
-            android:paddingRight="30dp"
-            android:textSize="20dp"
-            android:textColor="@color/dustyWhite"
-            />
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Sign In"
+        android:textColor="@color/dustyWhite"
+        android:textSize="20dp" />
 </LinearLayout>
     </LinearLayout>
 </LinearLayout>

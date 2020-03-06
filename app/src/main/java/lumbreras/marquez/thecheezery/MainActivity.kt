@@ -11,10 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_registro.setOnClickListener(){
+        //Código para iniciar otra activity
+        btn_registro.setOnClickListener{
             val intent = Intent(this, registro::class.java)
             startActivity(intent)
         }
+
+
     }
 
 

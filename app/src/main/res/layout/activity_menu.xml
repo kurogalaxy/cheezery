@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menuActivity">
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/menuTitle"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:stretchColumns="*"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_colddrinks"
+                android:paddingTop="20dp"
+                android:background="@drawable/degradado"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:text="@string/btn1"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_hotdrinks"
+                android:paddingTop="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/degradado"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:text="@string/btn2"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_sweets"
+                android:paddingTop="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/degradado"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="@string/btn3"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_salties"
+                android:paddingTop="20dp"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:background="@drawable/degradado"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="@string/btn4"
+                android:layout_height="match_parent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_combos"
+                android:paddingTop="20dp"
+                android:background="@drawable/degradado"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="@string/btn5"
+                android:textSize="15sp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_person"
+                android:paddingTop="20dp"
+                android:textColor="@color/dustyWhite"
+                android:paddingBottom="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/degradado"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:text="@string/btn6"
+                android:layout_height="match_parent"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
